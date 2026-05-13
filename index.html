@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet bakery oficial1</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background:#fff;
+        }
+
+        /* MENÚ */
+
+        header{
+            background:#ffffff;
+            padding:15px;
+            border-bottom:1px solid #ddd;
+        }
+
+        .menu{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            font-size:32px;
+            color:#8B004F;
+            font-weight:bold;
+        }
+
+        nav a{
+            text-decoration:none;
+            margin:15px;
+            color:#444;
+            font-size:17px;
+        }
+
+        nav a:hover{
+            color:#c2185b;
+        }
+
+        .iconos{
+            font-size:25px;
+        }
+
+        /* PORTADA */
+
+        .portada{
+            background-image:url('https://images.unsplash.com/photo-1578985545062-69928b1d9587');
+            background-size:cover;
+            background-position:center;
+            height:600px;
+            color:white;
+            text-align:center;
+        }
+
+        .fondo{
+            background:rgba(0,0,0,0.45);
+            height:600px;
+        }
+
+        .texto{
+            padding-top:220px;
+        }
+
+        .texto h1{
+            font-size:65px;
+        }
+
+        .texto p{
+            font-size:28px;
+        }
+
+        .boton{
+            background:#c2185b;
+            color:white;
+            padding:15px 35px;
+            border:none;
+            font-size:20px;
+            border-radius:10px;
+        }
+
+        /* PRODUCTOS */
+
+        .productos{
+            text-align:center;
+            padding:50px;
+        }
+
+        .productos h2{
+            color:#8B004F;
+            font-size:40px;
+        }
+
+        .cajas{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+        }
+
+        .caja{
+            width:280px;
+            background:#fff0f5;
+            padding:20px;
+            border-radius:20px;
+        }
+
+        .caja img{
+            width:100%;
+            border-radius:15px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- MENÚ -->
+
+    <header>
+
+        <div class="menu">
+
+            <div class="logo">
+                SWEET BAKERY OFICIAL1
+            </div>
+
+            <nav>
+                <a href="">Nosotros</a>
+                <a href="">Promociones</a>
+                <a href="">Lo Nuevo</a>
+                <a href="">Blog</a>
+                <a href="">Invitado Consentido</a>
+                <a href="">Ordena Aquí</a>
+            </nav>
+
+            <div class="iconos">
+                🔍 👤 🛒
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- PORTADA -->
+
+    <section class="portada">
+
+        <div class="fondo">
+
+            <div class="texto">
+
+                <h1>REGÁLATE UN DULCE MOMENTO</h1>
+
+                <p>
+                    Ordena en línea y recoge en tu sucursal favorita
+                </p>
+
+                <button class="boton">
+                    COMPRAR
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUCTOS -->
+
+    <section class="productos">
+
+        <h2>Nuestros Especiales</h2>
+
+        <div class="cajas">
+
+            <div class="caja">
+
+                <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729">
+
+                <h3>Pasteles</h3>
+
+                <p>Deliciosos y personalizados.</p>
+
+            </div>
+
+            <div class="caja">
+
+                <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c">
+
+                <h3>Donas</h3>
+
+                <p>Suaves y recién horneadas.</p>
+
+            </div>
+
+            <div class="caja">
+
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff">
+
+                <h3>Panadería</h3>
+
+                <p>Pan artesanal todos los días.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
